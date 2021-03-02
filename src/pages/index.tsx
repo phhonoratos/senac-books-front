@@ -7,7 +7,8 @@ export default function Home() {
       <Head>
         <title>Senac Books</title>
       </Head>
-      <h1>Hello</h1>
+      <h1>Teste</h1>
+      <a href="cadastrarProduto">Cadastrar Produto</a>
     </div>
   )
 }
