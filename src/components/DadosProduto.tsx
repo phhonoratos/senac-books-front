@@ -12,8 +12,6 @@ export function DadosProduto() {
             <label className={styles.editora1}>Editora:</label>
             <input className={styles.editora} type="text" />
             <br />
-            <label className={styles.qtdPag1}>Qtd pág:</label>
-            <input className={styles.qtdPag} type="text" />
             <label className={styles.categoria1}>Categoria:
                 <select className={styles.categoria} name="categoria" id="cat">
                     <option value="Policial">Policial</option>
@@ -24,8 +22,12 @@ export function DadosProduto() {
                 </select>
             </label>
             <br />
+            <label className={styles.qtdPag1}>Qtd pág:</label>
+            <input className={styles.qtdPag} type="text" />
+            <br />
             <label className={styles.ano1}>Ano:</label>
             <input className={styles.ano} type="number" value="1980"/>
+            <br />
             <label className={styles.edicao1}>Edição:</label>
             <input className={styles.edicao} type="text" />
             <br />
@@ -38,6 +40,7 @@ export function DadosProduto() {
                     <option value="5">5 estrelas</option>
                 </select>
             </label>
+            <br />
             <label className={styles.status1}>Status:
                 <select className={styles.status} name="status" id="cat">
                     <option value="Ativo">Ativo</option>
@@ -47,6 +50,7 @@ export function DadosProduto() {
             <br />
             <label className={styles.qtdEstoque1}>Qtd Estoque:</label>
             <input className={styles.qtdEstoque} type="text" />
+            <br />
             <label className={styles.preco1}>Preço:</label>
             <input className={styles.preco} type="text" />
             <br />
