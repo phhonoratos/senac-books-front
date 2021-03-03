@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import styles from '../../styles/pages/Home.module.css'
+import styles from '../styles/pages/CadastrarProduto.module.css'
 
 import { DadosProduto } from '../components/DadosProduto'
-import { ImagensProduto } from '../components/ImagensProduto'
 
 export default function cadastrarProduto() {
   return (
@@ -10,10 +9,16 @@ export default function cadastrarProduto() {
       <Head>
         <title>Senac Books</title>
       </Head>
+
       <h1>Cadastrar Produto</h1>
-      <DadosProduto />
+
+      <form action="">
+        <DadosProduto />
+        <br />
+        <button className={styles.btnCancelar}>Cancelar</button>
+        <button className={styles.btnCadastrar}>Cadastrar Produto</button>
+      </form>
       <br />
-      <ImagensProduto />
     </div>
   )
 }

@@ -1,10 +1,9 @@
-import styles from '../../styles/components/ImagensProduto.module.css'
+import styles from '../styles/components/ImagensProduto.module.css'
 
 export function ImagensProduto() {
     return (
         <article className={styles.container}>
-            <label className={styles.buscar1}>Buscar:</label>
-            <input className={styles.buscar} type="text" />
+            <input className={styles.buscar} type="text" placeholder="Pesquise o local da imagem" />
             <br />
             <input className={styles.checkCapa} type="checkbox" name="img-capa" id="" />
             <label className={styles.capa}>Capa</label>

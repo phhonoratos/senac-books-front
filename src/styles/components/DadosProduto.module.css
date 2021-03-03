@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    height: 100%;
+    margin-left: 50px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1.5rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo, .autor, .editora {
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.qtdPag, .ano, .qtdEstrelas, .qtdEstoque {
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.categoria, .edicao, .status, .preco {
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.descricao {
+    width: 50%;
+    height: 120px;
+    margin-left: 12px;
+    text-align: center;
+}
