@@ -11,7 +11,7 @@ export function DadosProduto() {
             <br />
             <input className={styles.editora} type="text" placeholder="Editora" />
             <br />
-            <input className={styles.qtdPag} type="text" placeholder="Qtd Páginas" />
+            <input className={styles.qtdPag} type="number" placeholder="Qtd Páginas" />
             <br />
             <select className={styles.categoria} name="categoria" id="cat">
                 <option value="Policial">Policial</option>
@@ -38,9 +38,11 @@ export function DadosProduto() {
                 <option value="Inativo">Inativo</option>
             </select>
             <br />
-            <input className={styles.qtdEstoque} type="text" placeholder="Qtd Estoque" />
+            <input className={styles.dimensao} type="text" placeholder="Dimensões do Produto" />
             <br />
-            <input className={styles.preco} type="text" placeholder="Preço" />
+            <input className={styles.qtdEstoque} type="number" placeholder="Qtd Estoque" />
+            <br />
+            <input className={styles.preco} type="number" placeholder="Preço" />
             <br />
             <textarea className={styles.descricao} name="descricao" id="descricao" placeholder="Descrição do produto" />
             <br />

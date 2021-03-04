@@ -10,9 +10,11 @@
 }
 
 .buscar {
-    width: 78%;
+    width: 85%;
     margin-bottom: 5px;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .upload {
