@@ -9,6 +9,8 @@ export default function Home() {
       </Head>
       <h1>Teste</h1>
       <a href="cadastrarProduto">Cadastrar Produto</a>
+      <br />
+      <a href="VisualizarProduto">Visualizar Produto</a>
     </div>
   )
 }
