@@ -6,13 +6,9 @@ export function DadosProduto() {
     return (
         <article className={styles.container}>
             <input className={styles.titulo} type="text" placeholder="Título" />
-            <br />
             <input className={styles.autor} type="text" placeholder="Autor" />
-            <br />
             <input className={styles.editora} type="text" placeholder="Editora" />
-            <br />
             <input className={styles.qtdPag} type="number" placeholder="Qtd Páginas" />
-            <br />
             <select className={styles.categoria} name="categoria" id="cat">
                 <option value="Policial">Policial</option>
                 <option value="Romance">Romance</option>
@@ -20,11 +16,8 @@ export function DadosProduto() {
                 <option value="Ficcao">Ficção</option>
                 <option value="Culinaria">Culinária</option>
             </select>
-            <br />
             <input className={styles.ano} type="number" placeholder="Ano" />
-            <br />
             <input className={styles.edicao} type="text" placeholder="Edição" />
-            <br />
             <select className={styles.qtdEstrelas} name="estrelas" id="cat">
                 <option value="1">1 estrela</option>
                 <option value="2">2 estrelas</option>
@@ -32,18 +25,13 @@ export function DadosProduto() {
                 <option value="4">4 estrelas</option>
                 <option value="5">5 estrelas</option>
             </select>
-            <br />
             <select className={styles.status} name="status" id="cat">
                 <option value="Ativo">Ativo</option>
                 <option value="Inativo">Inativo</option>
             </select>
-            <br />
             <input className={styles.dimensao} type="text" placeholder="Dimensões do Produto" />
-            <br />
             <input className={styles.qtdEstoque} type="number" placeholder="Qtd Estoque" />
-            <br />
             <input className={styles.preco} type="number" placeholder="Preço" />
-            <br />
             <textarea className={styles.descricao} name="descricao" id="descricao" placeholder="Descrição do produto" />
             <br />
             <ImagensProduto />

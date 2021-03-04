@@ -10,7 +10,6 @@ export function ImagensProduto() {
             <input className={styles.checkCapa} type="checkbox" name="img-capa" id="" />
             <label className={styles.capa}>Capa</label>
             <button className={styles.upload}>Upload</button>
-            <br />
             <section>
                 <input className={styles.checkImg1} type="checkbox" name="img-capa" id="" />
                 <input className={styles.checkImg2} type="checkbox" name="img-capa" id="" />
@@ -19,7 +18,6 @@ export function ImagensProduto() {
                 <div className={styles.img1}><AiFillPicture className={styles.img11} /></div>
                 <div className={styles.img2}><AiFillPicture className={styles.img22} /></div>
             </section>
-            <br />
             <button className={styles.excluir}>Excluir Selecionado</button>
         </article>
     );
