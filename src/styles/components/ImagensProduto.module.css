@@ -1,5 +1,5 @@
 .container {
-    width: 60%;
+    width: 50%;
     height: 100%;
     margin-left: 12px;
 
@@ -10,11 +10,48 @@
 }
 
 .buscar {
-    width: 70%;
+    width: 78%;
     margin-bottom: 5px;
     text-align: center;
 }
 
 .upload {
     margin-left: 330px;
+}
+
+.search {
+    font-size: medium;
+}
+
+.img1 {
+    background: rgb(177, 173, 173);
+    width: 170px;
+    height: 200px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.img2 {
+    background: rgb(177, 173, 173);
+    width: 170px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.img11, .img22 {
+    margin-top: 50px;
+    font-size: 500%;
+    color: gray;
+}
+
+.secImg {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkImg1 {
+    margin-top: 30px;
+    margin-right: 250px;
 }
