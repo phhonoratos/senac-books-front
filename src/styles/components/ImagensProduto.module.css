@@ -1,7 +1,6 @@
 .container {
     width: 50%;
     height: 100%;
-    margin-left: 0.75rem;
 
     border: 0.063rem solid black;
     border-radius: 0.313rem;
@@ -10,7 +9,7 @@
 }
 
 .buscar {
-    width: 85%;
+    width: 95%;
     margin-bottom: 0.313rem;
     text-align: center;
     border: 0.063rem solid black;
