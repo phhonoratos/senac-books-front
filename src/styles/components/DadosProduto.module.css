@@ -20,14 +20,7 @@
     text-align: center;
 }
 
-.qtdPag, .ano, .qtdEstrelas, .qtdEstoque {
-    width: 20%;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-.categoria, .edicao, .status, .preco {
+.qtdPag, .ano, .qtdEstrelas, .qtdEstoque, .categoria, .edicao, .status, .preco, .dimensao {
     width: 20%;
     margin-left: 10px;
     margin-bottom: 5px;

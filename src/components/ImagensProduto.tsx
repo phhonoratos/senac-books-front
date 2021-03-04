@@ -1,13 +1,11 @@
 import styles from '../styles/components/ImagensProduto.module.css'
 
-import { AiOutlineSearch } from 'react-icons/ai'
 import { AiFillPicture } from 'react-icons/ai'
 
 export function ImagensProduto() {
     return (
         <article className={styles.container}>
-            <input className={styles.buscar} type="text" placeholder="Pesquise o local da imagem" />
-            <button><AiOutlineSearch className={styles.search} /></button>
+            <input className={styles.buscar} accept="image/*" type="file" placeholder="Pesquise o local da imagem" />
             <br />
             <input className={styles.checkCapa} type="checkbox" name="img-capa" id="" />
             <label className={styles.capa}>Capa</label>
