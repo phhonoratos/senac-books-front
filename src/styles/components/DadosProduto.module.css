@@ -1,95 +1,50 @@
 .container {
-    width: 80%;
+    width: 100%;
     height: 100%;
 
     border: 1px solid black;
     border-radius: 0.313rem;
     padding: 1.5rem 1.5rem;
 
-}
-
-.tit {
-    display: flex;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
     align-items: center;
-    flex-direction: column;
-    /* justify-content: center; */
-}
-
-.cat, .edic, .diam, .sti, .prec, .compImg {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
-.titulo, .autor, .editora {
-    width: 50%;
+.ladoEsquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo, 
+.autor, 
+.editora {
+    width: 80%;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.categoria {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-    margin-right: 10.3rem;
-}
-
-.qtdPag {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.edicao {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-    margin-right: 10.3rem;
-}
-
-.qtdEstrelas {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.ano {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-    margin-right: 10.3rem;
-}
-
-.dimensao {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.status {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
-    margin-right: 10.3rem;
-}
-
+.categoria,
+.qtdPag,
+.edicao,
+.qtdEstrelas,
+.ano,
+.dimensao,
+.status,
+.qtdEstoque,
 .preco {
-    width: 17%;
+    width: 32%;
     margin-bottom: 1rem;
+    margin-right: 5.2rem;
     text-align: center;
-    margin-right: 21.2rem;
-}
-
-.qtdEstoque {
-    width: 17%;
-    margin-bottom: 1rem;
-    text-align: center;
+    align-self: center;
 }
 
 .descricao {
-    width: 50%;
+    width: 100%;
     height: 7.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    margin-left: 16.125rem;
 }

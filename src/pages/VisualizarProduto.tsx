@@ -10,12 +10,16 @@ export default function VisualizarProduto() {
             <Head>
                 <title>Senac Books</title>
             </Head>
+
             <h1>Visualizar Produto</h1>
+
             <section className={styles.teste}>
-                <CaixaVisual />
+                <section className={styles.teste2}>
+                    <CaixaVisual />
+                </section>
                 <CaixaCompra />
             </section>
-
+            <br />
         </div>
     );
 }
