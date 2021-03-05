@@ -33,9 +33,11 @@ export function ListProduct() {
             <input className={styles.editora} type="text" placeholder="Editora" />
             <br />
 
+            
             <button className={styles.button}>
                 <a href="cadastrarProduto">Cadastrar Produto</a>
             </button>
+            
             <br/>
             <Table data={data} />
             <div className={styles.buttonsLabel}>
@@ -45,6 +47,7 @@ export function ListProduct() {
             <button className={styles.buttonsRight} type={'submit'}><FiChevronRight></FiChevronRight></button>
             <button className={styles.buttonRight} type={'submit'}><FiChevronsRight></FiChevronsRight></button>
             </div>
+
             
         </article>
 
