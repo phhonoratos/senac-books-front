@@ -10,6 +10,7 @@ export default function Home() {
       <h1>Teste</h1>
       <a href="cadastrarProduto">Cadastrar Produto</a>
       <br />
+      <a href="listarProduto">Lista de Produtos</a>
       <a href="VisualizarProduto">Visualizar Produto</a>
     </div>
   )

@@ -1,0 +1,59 @@
+.container {
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.5rem;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+}
+
+.titulo {
+    width: 50%;
+    margin-left: 10rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.editora {
+    display: flex;
+    margin-top: -1.3rem;
+    margin-left: 38%;
+    margin-right: auto;
+    width: 350px;
+    text-align: center;
+}
+
+.categoria {
+    width: 25%;
+    margin-left: 10rem;
+    text-align: center;
+}
+
+.search {
+    font-size: medium;
+    height: 0.7rem;
+}
+
+.button {
+    display: flex;
+    margin-top: -2.6rem;
+    margin-left: 75%;
+    background-color: #D3D3D3;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #000000;
+}
+
+.table {
+    text-align: center;
+    border: 0.1rem solid #000000;
+    margin: 0 auto;
+}
+
+.buttonsLabel {
+    margin-top: 5rem;
+    margin-left: 45%;
+}
