@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/pages/VisualizarProduto.module.css'
 
 import { CaixaVisual } from '../components/CaixaVisual'
+import { CaixaCompra } from '../components/CaixaCompra'
 
 export default function VisualizarProduto() {
     return (
@@ -10,7 +11,11 @@ export default function VisualizarProduto() {
                 <title>Senac Books</title>
             </Head>
             <h1>Visualizar Produto</h1>
-            <CaixaVisual />
+            <section className={styles.teste}>
+                <CaixaVisual />
+                <CaixaCompra />
+            </section>
+
         </div>
     );
 }
