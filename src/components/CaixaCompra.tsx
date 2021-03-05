@@ -29,9 +29,9 @@ export function CaixaCompra() {
                 <label className={styles.precoLab}>Preço: </label>
             </div>
             <div className={styles.qtdCompra}>
-                <FiMinus className={styles.imgMenos} />
+                <button><FiMinus className={styles.imgMenos} /></button>
                 <label className={styles.qtdNum}>1</label>
-                <AiOutlinePlus className={styles.imgMais} />
+                <button><AiOutlinePlus className={styles.imgMais} /></button>
             </div>
             <button className={styles.comprar}>Comprar</button>
         </article>
